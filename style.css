@@ -1,0 +1,231 @@
+body {
+    background-color:black;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .4)), url(arkaplan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.dropdown :hover {
+    border: 2px solid white;
+
+}
+
+.vh-80 {
+    height: 85vh;
+}
+
+h1 {
+    font-size: 60px;
+
+}
+
+h3 {
+    font-size: 1.3rem;
+
+}
+
+.accordion-button {
+    background-color: rgb(36, 35, 35);
+    color: white;
+    margin-top: .7rem
+}
+
+.accordion-item {
+    border: none;
+    background-color: rgb(52, 52, 52);
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(36, 35, 35);
+    color: white;
+    box-shadow: none;
+
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:after {
+    background-image: url(icons8-plus-math-50.png);
+
+}
+
+.accordion-button:not(.collapsed):after {
+    background-image: url(icons8-subtract-48.png);
+
+}
+
+.footerList li {
+    list-style: none;
+    margin-top: .7rem;
+}
+
+.footerList li a {
+    color: white;
+}
+
+/*KİM İZLİYOR?*/
+
+
+
+
+.browse_h1 {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10rem;
+    margin-left: .7rem;
+
+
+
+
+}
+
+.card img:hover {
+    border: 2px solid white
+}
+
+.btn_browse {
+    background-color: transparent;
+    color: rgb(128, 123, 123);
+
+
+}
+
+.btn_browse:hover {
+    border: 1px solid white;
+
+
+}
+
+
+/*ACCOUNT PAGE*/
+
+
+.accountBody {
+    background-color: white;
+}
+
+.accountBody a {
+    color: rgb(133, 128, 128);
+}
+
+.account {
+    width: 100%;
+    height: 60vh;
+    background-color:blanchedalmond;
+
+}
+.account a{
+    color: blue;
+}
+.footerAccount{
+    background-color: black;
+   
+    height: 35vh;
+}
+
+
+
+/*BROWSE İNDEX*/
+
+.browseİndexContent {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .4)), url(arkaplan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+.browseİndexİmage li{
+    background-color: darkgray;
+    width: 100%;
+    height: 100vh;
+    list-style: none;
+
+
+    
+}
+
+/*LOGİN PAGE*/
+
+.loginHeader{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .4)), url(arkaplan.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+form{
+    color: grey;
+    
+}
+form a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 750px) {
+    .sec1 .row {
+        flex-direction: column-reverse;
+    }
+
+    .sec2 .row {
+        flex-direction: column;
+    }
+
+    .sec3 .row {
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        width: 20%;
+
+
+    }
+
+    .browse_h1 {
+        font-size: 30px
+    }
+  
+    
+
+}
